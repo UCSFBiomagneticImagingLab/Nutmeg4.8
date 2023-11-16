@@ -14,7 +14,7 @@ function Fsummary=nut_find_same_voxels_iterate(VOI_matfile, s_beam_file, subject
 load(VOI_matfile);
 nut_timef_viewer(s_beam_file);
 load(s_beam_file);
-
+global beam
 voxelsize = beam.voxelsize;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
